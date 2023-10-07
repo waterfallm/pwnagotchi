@@ -1,7 +1,7 @@
 name: CreateRelease
 
 env:
-  VERSION: 1.7.9
+  VERSION: 2.0.0
 
 on:
   workflow_dispatch:
@@ -12,7 +12,9 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+      with:
+          ref: feature/local-ansible-file
 
     # - name: Set VERSION variable
     #   run: |
