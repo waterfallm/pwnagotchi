@@ -72,7 +72,6 @@
           - libatlas-base-dev
           - libjasper-dev
           - libgtk-3-0
-          # - libqtgui4
           - libqt4-test
           - libopenjp2-7
           - libtiff5
