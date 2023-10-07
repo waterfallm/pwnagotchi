@@ -76,7 +76,6 @@
           - libtiff5
           - tcpdump
           - lsof
-          - libilmbase23
           - libopenexr23
           - libgstreamer1.0-0
           - libavcodec58
